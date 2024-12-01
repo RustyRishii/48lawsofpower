@@ -158,7 +158,7 @@ export default function Home() {
                 <span className="text-yellow"> unpredictibality</span>
               </p>
             }
-          />   
+          />
           <Block
             number={<p className="text-yellow">18</p>}
             Icon={<IconSpy size={50} />}
@@ -181,6 +181,7 @@ export default function Home() {
               </p>
             }
           />
+
           <Block
             number={<p className="text-yellow">20</p>}
             Icon={<IconSpy size={50} />}
@@ -465,7 +466,7 @@ export default function Home() {
             title={
               <p>
                 Strike the
-                <span className="text-yellow"> Don't go past </span>
+                <span className="text-yellow"> Don&apos;t go past </span>
                 the mark you aimed for know when to stop
               </p>
             }
