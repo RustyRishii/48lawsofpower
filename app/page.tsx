@@ -11,7 +11,6 @@ import {
   IconConfetti,
   IconCrown,
   IconDeer,
-  IconDroplet,
   IconDroplets,
   IconEarOff,
   IconEggCrackedFilled,
