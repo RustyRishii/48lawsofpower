@@ -1,19 +1,53 @@
 import React from "react";
 import {
+  IconAdjustmentsCog,
   IconAffiliateFilled,
   IconAwardFilled,
+  IconBat,
+  IconBuildingCastle,
+  IconBulbFilled,
+  IconCancel,
   IconChevronsRight,
+  IconConfetti,
+  IconCrown,
+  IconDeer,
+  IconDroplet,
+  IconDroplets,
+  IconEarOff,
+  IconEggCrackedFilled,
   IconEye,
   IconEyeOff,
+  IconFishHook,
   IconFishHookOff,
+  IconFlagFilled,
+  IconFlipVertical,
+  IconFocus,
+  IconFreeRights,
+  IconFriends,
+  IconGrain,
+  IconHandFinger,
+  IconHandGrab,
+  IconHeartFilled,
   IconHeartHandshake,
   IconHorseshoe,
+  IconHourglass,
+  IconJoker,
   IconKarate,
   IconLink,
+  IconLinkOff,
+  IconMoodPuzzled,
+  IconPray,
+  IconProgressHelp,
+  IconPuzzleFilled,
+  IconRepeatOff,
   IconSchool,
+  IconShape3,
+  IconShoe,
   IconSpy,
   IconUsersGroup,
   IconVolume3,
+  IconWashHand,
+  IconWind,
 } from "@tabler/icons-react";
 import Block from "./components/block";
 
@@ -36,42 +70,91 @@ export default function Home() {
           <Block
             number={<p className="text-red">2</p>}
             Icon={<IconKarate size={50} />}
-            title="Never put too much trust in friends, learn to use enemies"
+            // title="Never put too much trust in friends, learn to use enemies"
+            title={
+              <p>
+                Never put too much trust in friends, learn to
+                <span className="text-red"> use enemies</span>
+              </p>
+            }
           />
           <Block
             number={<p className="text-red">3</p>}
             Icon={<IconEyeOff size={50} />}
-            title="Always conceal your intentions"
+            // title="Always conceal your intentions"
+            title={
+              <p>
+                Always
+                <span className="text-red"> conceal </span>
+                your intentions
+              </p>
+            }
           />
           <Block
             number={<p className="text-red">4</p>}
             Icon={<IconVolume3 size={50} />}
-            title="Always say less than necessary"
+            title={
+              <p>
+                Always
+                <span className="text-red"> say less </span>
+                than necessary
+              </p>
+            }
           />
           <Block
             number={<p className="text-red">5</p>}
             Icon={<IconAwardFilled size={50} />}
-            title="Guard your reputation with your life"
+            title={
+              <p>
+                Guard your
+                <span className="text-red"> reputation </span>
+                with your life
+              </p>
+            }
           />
           <Block
             number={<p className="text-red">6</p>}
             Icon={<IconUsersGroup size={50} />}
-            title="Seek attention stand out"
+            title={
+              <p>
+                Seek
+                <span className="text-red"> attention </span>
+                to stand out
+              </p>
+            }
           />
           <Block
             number={<p className="text-red">7</p>}
             Icon={<IconAffiliateFilled size={50} />}
-            title="Get others to do the work, But always take the credit"
+            title={
+              <p>
+                Get others to do the work, But always
+                <span className="text-red"> the credit</span>
+              </p>
+            }
           />
           <Block
-            number={<p className="text-red">7</p>}
+            number={<p className="text-red">8</p>}
             Icon={<IconFishHookOff size={50} />}
-            title="Make others to come to you, Use bait if necessary"
+            title={
+              <p>
+                Make others
+                <span className="text-red"> come to you </span>
+                use bait if necessary
+              </p>
+            }
           />
           <Block
             number={<p className="text-red">9</p>}
             Icon={<IconChevronsRight size={50} />}
-            title="Win through your actions, never through augument"
+            // title="Win through your actions, never through augument"
+            title={
+              <p>
+                Win through your
+                <span className="text-red"> actions</span>, never through
+                argument
+              </p>
+            }
           />
           <Block
             number={<p className="text-red">10</p>}
@@ -103,7 +186,6 @@ export default function Home() {
               <p>
                 Use selective honesty and generosity to
                 <span className="text-red"> disarm </span>
-                on you
               </p>
             }
           />
@@ -131,7 +213,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">15</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconHandGrab size={50} />}
             title={
               <p>
                 <span className="text-yellow"> Crush </span>
@@ -141,7 +223,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">16</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconGrain size={50} />}
             title={
               <p>
                 Raise your value through
@@ -151,7 +233,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">17</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconProgressHelp size={50} />}
             title={
               <p>
                 Cultivate an air of
@@ -161,18 +243,18 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">18</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconBuildingCastle size={50} />}
             title={
-              <p>
+              <p className="line-clamp-2">
                 Don&apos;t
                 <span className="text-yellow"> isolate </span>
-                fortress
+                yourself behind fortress
               </p>
             }
           />
           <Block
             number={<p className="text-yellow">19</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconBulbFilled size={50} />}
             title={
               <p>
                 know who you&apos;re
@@ -184,7 +266,7 @@ export default function Home() {
 
           <Block
             number={<p className="text-yellow">20</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconHeartHandshake size={50} />}
             title={
               <p>
                 Don&apos;t fully
@@ -195,7 +277,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">21</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconMoodPuzzled size={50} />}
             title={
               <p>
                 play a scuker to catch a sucker, seem
@@ -206,7 +288,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">22</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconFlagFilled size={50} />}
             title={
               <p>
                 use the
@@ -217,7 +299,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">23</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconFocus size={50} />}
             title={
               <p>
                 <span className="text-yellow"> Concentrate </span>
@@ -227,17 +309,17 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">24</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconJoker size={50} />}
             title={
               <p>
                 Play the perfect
-                <span className="text-yellow"> courties </span>
+                <span className="text-yellow"> courtier </span>
               </p>
             }
           />
           <Block
             number={<p className="text-red">25</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconShape3 size={50} />}
             title={
               <p>
                 <span className="text-red">Recreate </span>
@@ -247,7 +329,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-red">26</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconWashHand size={50} />}
             title={
               <p>
                 Keep your
@@ -257,7 +339,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-red">27</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconPray size={50} />}
             title={
               <p>
                 Play on people&apos;s need to
@@ -267,7 +349,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-red">28</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconBat size={50} />}
             title={
               <p>
                 Enter action with
@@ -277,17 +359,17 @@ export default function Home() {
           />
           <Block
             number={<p className="text-red">29</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconPuzzleFilled size={50} />}
             title={
               <p>
                 <span className="text-red"> Plan </span>
-                all the way to en
+                all the way to the end
               </p>
             }
           />
           <Block
             number={<p className="text-red">30</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconHandFinger size={50} />}
             title={
               <p>
                 Make your achievements
@@ -297,7 +379,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-red">31</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconAdjustmentsCog size={50} />}
             title={
               <p>
                 Control the
@@ -307,7 +389,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-red">32</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconFishHook size={50} />}
             title={
               <p>
                 tell people what they
@@ -317,7 +399,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-red">33</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconLinkOff size={50} />}
             title={
               <p>
                 Find your opponent&apos;s
@@ -328,7 +410,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-red">34</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconCrown size={50} />}
             title={
               <p>
                 Act like a<span className="text-red"> king </span>
@@ -338,7 +420,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-red">35</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconHourglass size={50} />}
             title={
               <p>
                 Master the art of <span className="text-red"> timing </span>
@@ -347,17 +429,17 @@ export default function Home() {
           />
           <Block
             number={<p className="text-red">36</p>}
-            Icon={<IconSchool size={50} />}
+            Icon={<IconEarOff size={50} />}
             title={
               <p>
-                Act like a<span className="text-red"> ignore </span>
+                <span className="text-red"> Ignore </span>
                 things you cannot have
               </p>
             }
           />
           <Block
             number={<p className="text-yellow">37</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconConfetti size={50} />}
             title={
               <p>
                 Create compelling
@@ -367,7 +449,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">38</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconFriends size={50} />}
             title={
               <p>
                 Think as you like but
@@ -378,7 +460,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">39</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconWind size={50} />}
             title={
               <p>
                 <span className="text-yellow">Stir up </span>
@@ -388,7 +470,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">40</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconFreeRights size={50} />}
             title={
               <p>
                 Avoid taking
@@ -399,7 +481,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">41</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconShoe size={50} />}
             title={
               <p>
                 Avoid stepping into
@@ -410,7 +492,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">42</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconDeer size={50} />}
             title={
               <p>
                 Strike the
@@ -421,7 +503,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">43</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconHeartFilled size={50} />}
             title={
               <p>
                 work on the
@@ -432,7 +514,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">44</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconFlipVertical size={50} />}
             title={
               <p>
                 Disarm and infuriate with the
@@ -442,7 +524,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">45</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconRepeatOff size={50} />}
             title={
               <p>
                 Preach change, but never
@@ -452,7 +534,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">46</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconEggCrackedFilled size={50} />}
             title={
               <p>
                 Never appear
@@ -462,7 +544,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">47</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconCancel size={50} />}
             title={
               <p>
                 Strike the
@@ -473,7 +555,7 @@ export default function Home() {
           />
           <Block
             number={<p className="text-yellow">48</p>}
-            Icon={<IconSpy size={50} />}
+            Icon={<IconDroplets size={50} />}
             title={
               <p>
                 Assume
